@@ -7,6 +7,10 @@ School Activity, just learning Github fundamentals and practicing
 ### Images
 ![There's the sea and a lonely tree](seaAndTree.jpeg)
 
+### Code Examples
+```python int num = 3```
+```python int num2 = 4```
+```python int result = num + num2```
 
 
 ## References
