@@ -5,6 +5,7 @@ School Activity, just learning Github fundamentals and practicing
 
 ## Contents
 ### Images
+![There's the sea and a lonely tree](seaAndTree.jpeg)
 
 
 
