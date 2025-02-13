@@ -6,6 +6,7 @@ School Activity, just learning Github fundamentals and practicing
 ## Contents
 ### Images
 ![There's the sea and a lonely tree](seaAndTree.jpeg)
+![This is Github's Logo](githubImage.jpeg)
 
 ### Code Examples
 ```
