@@ -1,0 +1,79 @@
+body {
+    background-color: rgb(55, 48, 81);
+    height: 100vh;
+}
+
+.container {
+    border: 2px solid rgb(184, 107, 0);
+    background-color: rgb(184, 107, 0);
+    padding: 10px;
+}
+
+.container-1 {
+    border: 2px solid rgb(146, 90, 5);
+    background-color: rgb(146, 90, 5);
+    padding: 10px;
+}
+
+.container-2 {
+    border: 2px solid rgb(95, 95, 95);
+    background-color: rgb(95, 95, 95);
+    padding: 10px;
+}
+
+.container-3 {
+    border: 2px solid rgb(76, 76, 76);
+    background-color: rgb(76, 76, 76);
+    padding: 10px;
+}
+
+.container-4 {
+    border: 2px solid rgb(220, 152, 56);
+    background-color: rgb(220, 152, 56);
+    padding: 10px;
+}
+
+.container-5 {
+    border: 2px solid rgb(168, 114, 37);
+    background-color: rgb(168, 114, 37);
+    padding: 10px;
+}
+
+.container-6 {
+    border: 2px solid rgb(138, 138, 138);
+    background-color: rgb(138, 138, 138);
+    padding: 10px;
+}
+
+.grid-container{
+    width: 100%;
+    height: calc(100% - 16px);
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 2fr 2fr;
+    gap: 10px;
+    grid-template-areas: 
+        "header header header header header header"
+        "main main main2 main2 main2 main2"
+        "main main foot foot foot2 foot2"
+}
+
+#grid-item-1{
+    grid-area: header;
+}
+
+#grid-item-2{
+    grid-area: main;
+}
+
+#grid-item-3{
+    grid-area: main2;
+}
+
+#grid-item-4{
+    grid-area: foot;
+}
+
+#grid-item-5{
+    grid-area: foot2;
+}
