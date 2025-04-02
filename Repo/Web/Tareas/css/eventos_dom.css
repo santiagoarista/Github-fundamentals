@@ -1,0 +1,132 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #0d0d0d;
+    color: #e0e0e0;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+    color: #8ab4f8;
+}
+
+h2, h3, h4 {
+    color: #bb86fc;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.container {
+    background-color: #1a1a1a;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(255, 255, 255, 0.1);
+}
+
+ol {
+    margin-left: 20px;
+}
+
+ol li {
+    margin-bottom: 20px;
+}
+
+code {
+    background-color: #2b2b2b;
+    padding: 4px 8px;
+    border-radius: 6px;
+    font-family: monospace;
+    color: #ff7b72;
+}
+
+a {
+    color: #8ab4f8;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #bb86fc;
+}
+
+input[type="text"],
+input[type="submit"],
+input[type="button"],
+select {
+    padding: 10px 12px;
+    border: 1px solid #555;
+    border-radius: 6px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width: auto;
+    font-size: 1rem;
+    background-color: #222;
+    color: #e0e0e0;
+}
+
+input[type="submit"],
+input[type="button"] {
+    background-color: #8ab4f8;
+    color: #0d0d0d;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    border: none;
+}
+
+input[type="submit"]:hover,
+input[type="button"]:hover {
+    background-color: #bb86fc;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+table, th, td {
+    border: 1px solid #444;
+}
+
+td {
+    padding: 12px;
+    text-align: center;
+    background-color: #222;
+}
+
+form {
+    margin-top: 10px;
+}
+
+#mousePosition {
+    font-weight: bold;
+    color: #bb86fc;
+    font-size: 1.1rem;
+}
+
+#imagenGato {
+    display: block;
+    margin: 15px auto;
+    border-radius: 12px;
+    box-shadow: 0 0 12px rgba(255, 255, 255, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+#imagenGato:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 16px rgba(255, 255, 255, 0.15);
+}
